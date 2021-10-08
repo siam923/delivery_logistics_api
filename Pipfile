@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-debug-toolbar = "*"
+django-allauth = "*"
+djangorestframework = "*"
+drf-nested-routers = "*"
+django-filter = "*"
+dj-rest-auth = "*"
+djangorestframework-simplejwt = "*"
+coreapi = "*"
+pyyaml = "*"
+django-rest-swagger = "*"
+gunicorn = "*"
+django-heroku = "*"
+psycopg2-binary = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.8"

@@ -1,1 +1,1 @@
-web: gunicorn courier_project.wsgi --log-file -
+web: gunicorn courier.wsgi --log-file -
